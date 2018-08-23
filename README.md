@@ -1,4 +1,4 @@
-# MDNS [![GoDoc](https://godoc.org/github.com/micro/mdns?status.svg)](https://godoc.org/github.com/micro/mdns)
+# MDNS [![GoDoc](https://godoc.org/github.com/jinbanglin/mdns?status.svg)](https://godoc.org/github.com/jinbanglin/mdns)
 
 Simple mDNS client/server library in Golang. mDNS or Multicast DNS can be
 used to discover services on the local network without the use of an authoritative
@@ -14,7 +14,7 @@ Using the library is very simple, here is an example of publishing a service ent
 package main
 
 import (
-	"github.com/micro/mdns"
+	"github.com/jinbanglin/mdns"
 	"os"
 )
 
@@ -39,7 +39,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/micro/mdns"
+	"github.com/jinbanglin/mdns"
 )
 
 func main() {
